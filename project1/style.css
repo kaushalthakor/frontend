@@ -1,0 +1,76 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+/* body {
+    background-color:lightgoldenrodyellow;
+} */
+
+
+#main {
+    /* background-color:red; */
+    height: 100%;   /*this is 50% of parent. and parent of main is body*/
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.shape {
+    margin-top: 10px;
+    margin-left: 10px;
+
+    /* background-color:blue; */
+    height: 200px;   /*this is 50% of parent. and parent of shape is main*/
+    width: 200px;
+    border-style: solid;
+    border-width: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#circle {
+    border-radius: 50%;
+}
+
+#diamond {
+    /* height: 100px;
+    width: 100px; */
+    margin-top: 30%;
+    rotate: 45deg;
+    height: 141px;
+    width: 141px;
+    translate: 30px;
+}
+
+
+#diamond h1 {
+    rotate: -45deg;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+#square:hover {
+background-color: rgb(222, 51, 8);
+}
+
+#circle:hover {
+    background-color: greenyellow ;
+}
+
+#diamond:hover {
+    background-color: blue;
+}

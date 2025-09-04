@@ -1,0 +1,576 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+#main {
+    height: 100%;
+    width: 100%;
+    
+}
+
+#header {
+    position: fixed;
+    height: 13vh;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-direction: row-reverse; */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+}
+
+.texts {
+    font-size:large;
+    /* font-weight: bold; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    color: navy;
+    display: flex;
+}
+
+.texts:hover {
+    color: cyan;
+
+}
+
+#fakeheader {
+    /* position: fixed; */
+    height: 13vh;
+    width: 100%;
+    /* background-color:yellow; */
+}
+
+
+#logo {
+    height: 80%;
+}
+
+
+
+#logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+    padding: 10px;
+}
+
+
+#contactdetails {
+
+
+    font-weight: lighter;
+   /* padding: 10px;
+    font-size: small;
+    font-weight: bold;
+    color: navy;
+
+    text-align: center; */
+
+}
+
+.icons {
+    color: navy; 
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+.icons:hover {
+    
+    background-color:lightskyblue;
+   
+}
+
+
+#login {
+    color: navy;
+    display:flex;
+    /* align-items: center;
+    justify-content: center; */
+    border-radius: 50px;
+    padding: 10px;
+    
+}
+
+#login:hover {
+    background-color: lightskyblue; 
+}
+
+
+#try {
+    background-color: green;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    /* cursor: pointer; */
+}
+
+#try:hover {
+    background-color:darkgreen;
+    
+    color: white;
+
+}
+
+
+#page1 {
+    height: 87vh;  /*adjust device wise  for vh(viewport height)*/
+    width: 100%;
+    background-color:lightskyblue;
+}
+
+#strips {
+    height: 8%;
+    width: 100%;
+    background-color: navy;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: normal;
+    font-weight: bold;
+    
+}
+
+#strips u{
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+
+#content {
+    background-image: url(https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2023/04/01_marquee_background-2.jpg?w=1024);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 76%;
+    
+}
+
+#box1 {
+    margin: 10px;
+    padding: 10px;
+    /* background-color: blueviolet; */
+    height: 100%;
+    width: 50%;
+}
+
+#box1 h1{
+    height: 30%;
+    width: 100%;
+    text-align: left;
+    /* background-color: blueviolet; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    justify-items: center;
+}
+
+#line1 {
+    margin-top: 50px;
+    
+}
+
+#line2 {
+    font-size: larger;
+    color:skyblue;
+}
+
+
+#box1 p{
+
+    text-align: left;
+    height: 40%;
+    width: 100%;
+    font-size:x-large;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+
+
+
+#button {
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 30%;
+    width: 50%;
+    
+}
+
+#button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color:cornflowerblue;
+    /* padding: 20px; */
+    border-radius: 20px;
+    margin-left: 20px;
+    height: 70px;
+    width: 500px;
+   
+}
+
+#button1:hover{
+    background-color: navy;
+}
+
+#button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: cornflowerblue;
+    background-color:white;
+    /* padding: 20px; */
+    border-radius: 20px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    margin-left: 20px;
+    height: 70px;
+    width: 500px;
+   
+}
+
+#button2:hover{
+    color: black;
+    border-color:lightblue;
+    background-color:lightblue;
+}
+
+
+
+#tagline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 16%;
+}
+
+
+#box2 {
+    /* background-color:grey; */
+    height: 80%;
+    width: 80%;
+    /* background-image: url(https://vasscompany.com/content/dam/vass-company/en/articles/salesforce-for-financial-services/salesforce-1.png); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    margin: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 20px;
+    /* background-color:rgb(160, 212, 244); */
+    border-color:white;
+    
+}
+
+
+
+#sideimage {
+    
+    /* background-image: url(https://wallpapers.com/background/salesforce-background-qfgrzv52hvyi9q00.html); */
+    background-size:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%; 
+
+}
+
+#box2:hover {
+    background-image: url(https://www.salesforce.com/news/wp-content/uploads/sites/3/2020/08/SFDO-Logo-2020-RGB-Vert-FullColor.png);
+    /* background-image: url(); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 80%; 
+}
+
+
+
+
+#page2 {
+    height: 87vh;  /*adjust device wise  for vh(viewport height)*/
+    width: 100%;
+    /* background-image: url(https://www.dhruvsoft.com/wp-content/uploads/2025/01/Salesforce-Sales-Cloud-.jpg); */
+    background-image: url(https://careers.salesforce.com/media/ofljlwbf/ae_hiring_default_bg-2.png?width=2000&height=800&rnd=133785611479630000&width=2000&height=800&rmode=crop&quality=100);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color:darkgray; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+
+#cards {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card1{
+    /* background-image: url(https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-product-smb_icon-1.jpg?resize=768,433);        background-size: cover; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 270px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(192, 221, 239);
+
+    text-align:left;
+    justify-items: center;
+    
+}
+
+#card1 h1{
+   margin: 10px; 
+   margin-top: 50%;
+}
+#card1 h4{
+   margin: 10px; 
+   /* margin-top: 50%; */
+}
+
+
+#card1:hover{
+    background-color:white;
+    border-color: white;
+    box-shadow: 5px 5px 15px gray;
+}
+
+
+#card2 {
+    /* background-image: url(https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-product-smb_icon-2.jpg?resize=768,433); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 270px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(192, 221, 239);
+
+    text-align:left;
+    justify-items: center;
+}
+
+#card2 h1{
+   margin: 10px; 
+   margin-top: 50%;
+}
+
+#card2 h4{
+   margin: 10px; 
+   /* margin-top: 50%; */
+}
+
+#card2:hover{
+    background-color:white;
+    border-color: white;
+    box-shadow: 5px 5px 15px gray;
+}
+
+
+#card3 {
+    /* background-image: url(https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-product-smb_icon-3.jpg?resize=768,433); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color:blueviolet; */
+    height: 400px;
+    width: 270px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(192, 221, 239);
+
+    text-align:left;
+    justify-items: center;
+}
+
+
+#card3 h1{
+   margin: 10px; 
+   margin-top: 50%;
+}
+
+#card3 h4{
+   margin: 10px; 
+   /* margin-top: 50%; */
+}
+
+#card3:hover{
+    background-color:white;
+    border-color: white;
+    box-shadow: 5px 5px 15px gray;
+}
+
+#card4 {
+/* background-image: url(https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-product-smb_icon-4.jpg?resize=768,433); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color:coral; */
+    height: 400px;
+    width: 270px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+
+    border-style: solid;
+    border-color: rgb(192, 221, 239);
+
+    text-align:left;
+    justify-items: center;
+}
+
+#card4 h1{
+   margin: 10px; 
+   margin-top: 50%;
+}
+
+#card4 h4{
+   margin: 10px; 
+   /* margin-top: 50%; */
+}
+
+#card4:hover{
+    background-color:white;
+    border-color: white;
+    box-shadow: 5px 5px 15px gray;
+}
+
+#view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#butan {
+    color:rgb(113, 113, 244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-style:solid;
+    border-radius: 10px;
+    border-color:rgb(113, 113, 244);
+    background-color:white;
+    height: 80px;
+    width: 300px;
+}
+
+#butan:hover{
+    color: navy;
+    border-color: navy;
+    background-color: lightskyblue;
+}
+
+
+#page3 {
+    height: 90vh;  
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1506494491502-7563f654329e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    /* background-image: url(https://plus.unsplash.com/premium_photo-1661962968508-94256ea69917?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGF0dGVybnxlbnwwfDB8MHx8fDA%3D); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color:white; */
+}
+
+
+#personal{
+
+    /* background-color: brown; */
+    height: 100%;
+    width: 100%;
+}
+#personal , #name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#photo{
+    
+ 
+    height: 400px;
+    width: 400px;
+    background-color:ghostwhite;
+    border-style:double;
+    border-color: red;
+    border-radius: 50%;
+}
+
+#photo:hover{
+    background-image: url(https://avatars.githubusercontent.com/u/205581800?v=4);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-style:double;
+    border-color: black;
+    box-shadow: 5px 5px 50px  red;
+}
+/* 
+#name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+#link{
+    padding: 20px;
+    background-color:antiquewhite;
+    margin-bottom: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:burlywood;
+    box-shadow: black;
+}
+
+
+#link:hover{
+    background-color:bisque;
+}
+
+/* short properties of border 1)width 2)style 3)color */
+
+iframe {
+    border-radius: 10px;
+    border: 4px solid white;
+}

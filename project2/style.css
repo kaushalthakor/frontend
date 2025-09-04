@@ -1,0 +1,213 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* 
+/* #main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    height: 100%;
+    width: 100%;
+
+    
+} */
+.cards {
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    height: 300px;
+    width: 230px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#card1 {
+    z-index: 4;
+    /* background-image: url("https://images.unsplash.com/photo-1643725173053-ed68676f1878?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9rZW1vbnxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-color: rosybrown;
+
+}
+
+#card2 {
+    z-index: 3;
+    background-color: blue;
+
+    rotate: -7deg;
+}
+
+#card3 {
+    z-index: 2;
+    background-color: green;
+
+    rotate: -14deg;
+
+}
+
+#card4 {
+    background-color: yellow;
+    z-index: 1;
+    rotate: -21deg;
+
+}
+
+*#main {
+
+    height: 100%;
+    width: 100%;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: black;
+
+}
+
+.card {
+    height: 300px;
+    width: 230px;
+    /* background-color: cadetblue; */
+
+    /* border-style: solid;
+    border-color: black;
+    border-radius: 20px; */
+
+    border: solid 2px black;
+    border-radius: 20px;
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
+
+
+#card1 {
+    z-index: 4;
+    background-color: coral;
+    transform: translate(-50%, -50%);
+    /*means card 1 is come at 4(forth)*/
+}
+
+#card2 {
+    z-index: 3;
+    background-color: darkseagreen;
+    rotate: -7deg;
+    /*means card 2 is come at 3(third)*/
+}
+
+#card2:hover {
+    z-index: 40;
+}
+
+#card3 {
+    z-index: 2;
+    background-color: greenyellow;
+    rotate: -14deg;
+    /*means card 3 is come at 2(second)*/
+}
+
+#card3:hover {
+    z-index: 40;
+}
+
+#card4 {
+    z-index: 1;
+    background-color: plum;
+    rotate: -21deg;
+    /*means card 4 is come at 1(first)*/
+}
+
+#card4:hover {
+    z-index: 40;
+}
+
+#card1 h1 {
+    color: black;
+    padding-top: 130px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+
+
+}
+
+
+#card2 h1 {
+    color: black;
+    padding-top: 130px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+#card3 h1 {
+    color: black;
+    padding-top: 130px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+#card4 h1 {
+    color: black;
+    padding-top: 130px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#card1:hover {
+    z-index: 40;
+    background-image: url("https://images.unsplash.com/photo-1643725173053-ed68676f1878?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9rZW1vbnxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#card2:hover {
+    z-index: 40;
+    background-image: url("https://images.unsplash.com/photo-1609372332255-611485350f25?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9rZW1vbnxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#card3:hover {
+    z-index: 40;
+    background-image: url("https://images.unsplash.com/photo-1609845768806-767fcfc317b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBva2Vtb258ZW58MHx8MHx8fDA%3D");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#card4:hover {
+    z-index: 40;
+    background-image: url("https://images.unsplash.com/photo-1724114703697-999ce881b886?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHBva2Vtb258ZW58MHx8MHx8fDA%3D");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
